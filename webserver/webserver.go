@@ -3,7 +3,7 @@ package main
 import "net/http"
 
 func Hello(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("<h1>web server demo</h1>"))
+	w.Write([]byte("<h1>web server new demo</h1>"))
 }
 
 func main() {
